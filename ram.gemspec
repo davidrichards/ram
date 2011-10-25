@@ -1,7 +1,8 @@
 Gem::Specification.new do |s|
   s.name      = 'ram'
-  s.version   = '0.0.1'         # Keep version in sync with ram.rb
-  s.date      = '2011-10-25'
+  s.version   = File.open(File.expand_path('../VERSION', __FILE__), 'r').read
+  s.date      = File.stat('VERSION').mtime
+  
 
   s.homepage    = "http://fleetventures.com/"
   s.summary     = "Asset Packaging"
@@ -29,5 +30,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'yui-compressor',    ['>= 0.9.3']
 
-  s.files = Dir['lib/**/*', 'bin/*', 'ram.gemspec', 'LICENSE', 'README.md']
+  s.files = Dir['lib/**/*', 'bin/*', 'ram.gemspec', 'LICENSE', 'README.md', 'VERSION']
 end

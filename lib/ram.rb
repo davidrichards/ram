@@ -4,7 +4,7 @@ $LOAD_PATH.push File.expand_path(File.dirname(__FILE__))
 # to all of the configuration options.
 module Ram
 
-  VERSION               = "0.6.3"
+  VERSION               = File.open(File.expand_path('../../VERSION', __FILE__), 'r').read
 
   ROOT                  = File.expand_path(File.dirname(__FILE__) + '/..')
 
@@ -12,7 +12,7 @@ module Ram
 
   DEFAULT_PUBLIC_ROOT   = 'output' unless defined?(PUBLIC_ROOT)
 
-  DEFAULT_CONFIG_PATH   = File.join(ASSET_ROOT, 'config', 'assets.yml')
+  DEFAULT_CONFIG_PATH   = File.join(ASSET_ROOT, 'assets.yml')
 
   DEFAULT_PACKAGE_PATH  = "assets"
 
