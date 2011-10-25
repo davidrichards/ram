@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby -rrubygems
+
+require "#{File.dirname(__FILE__)}/../lib/ram/command_line.rb"
+
+Ram::CommandLine.new

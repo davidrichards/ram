@@ -1,0 +1,14 @@
+javascript_compressor: yui
+compress_assets: false
+gzip_assets: false
+embed_images: on
+
+javascripts:
+  js_test:
+    - fixtures/src/*.js
+  jst_test:
+    - fixtures/src/*.jst
+
+stylesheets:
+  css_test:
+    - fixtures/src/*.css

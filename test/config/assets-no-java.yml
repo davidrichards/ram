@@ -1,0 +1,14 @@
+javascript_compressor: yui
+compressor_options:
+  java: /nonexistent/java
+embed_assets: on
+
+javascripts:
+  js_test:
+    - fixtures/src/*.js
+  jst_test:
+    - fixtures/src/*.jst
+
+stylesheets:
+  css_test:
+    - fixtures/src/*.css

@@ -1,0 +1,6 @@
+.yardoc
+*.gem
+example
+raws
+test/precache
+.rvmrc
