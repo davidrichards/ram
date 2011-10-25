@@ -14,6 +14,15 @@ Since this is a re-purposed Jammit, this tentatively works tonight, but without 
 
 If this version of Ram doesn't work for you, you might want to try the [musical version](http://www.youtube.com/watch?v=lpGtqeMH4Rs&feature=youtu.be) instead.
 
+Usage
+=====
+
+Basically add a config/assets.yml file in your project (see [Jammit documentation](http://documentcloud.github.com/jammit/) for now).  Then, from your project source:
+
+    ram
+
+I'll put some better documentation together once I'm more comfortable that I have what I want with this gem.
+
 License
 =======
 
