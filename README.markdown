@@ -1,4 +1,5 @@
-== Ram
+Ram
+===
 
 Ram is an asset packaging library, written in Ruby.  It is entirely taken from the Jammit gem, but stripped of any Rails dependencies or helpers.  It was primarily written for packaging nanoc assets, though I suppose it could be used for many types of web development projects.
 
@@ -6,13 +7,15 @@ Installation:
   
     gem install ram
     
-== Status of Project
+Status of Project
+=================
 
 Since this is a re-purposed Jammit, this tentatively works tonight, but without any guarantees.  There are 13 failing tests at the moment, but I can get my regular use case working with nanoc.  
 
 If this version of Ram doesn't work for you, you might want to try the [musical version](http://www.youtube.com/watch?v=lpGtqeMH4Rs&feature=youtu.be) instead.
 
-== License
+License
+=======
 
 Copyright (c) 2011 David Richards, Fleet Ventures
 
