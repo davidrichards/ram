@@ -23,6 +23,15 @@ Basically add a config/assets.yml file in your project (see [Jammit documentatio
 
 I'll put some better documentation together once I'm more comfortable that I have what I want with this gem.
 
+Path Ahead
+==========
+
+Just a few things:
+
+* Get the tests running
+* Add a few features and feedback in the CLI
+* Documentation
+
 License
 =======
 
